@@ -150,5 +150,6 @@
             ]
         }]
     },
+    "schemaVersion": "1",
     "onSubmitMessage": "Thank you for contacting us!"
 }
