@@ -204,5 +204,6 @@
             }
         ]
     },
+    "schemaVersion": "1",
     "onSubmitMessage": "You're all set. Drive safe!"
 }
