@@ -94,5 +94,6 @@
             }
         ]
     },
+    "schemaVersion": "1",
     "onSubmitMessage": "Your request has been submitted."
 }
