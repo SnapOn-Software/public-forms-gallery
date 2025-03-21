@@ -1,4 +1,5 @@
 {
+    "schemaVersion": "1",
     "layout": {
         "title": "Contact Us",
         "steps": [{
@@ -150,6 +151,5 @@
             ]
         }]
     },
-    "schemaVersion": "1",
     "onSubmitMessage": "Thank you for contacting us!"
 }
