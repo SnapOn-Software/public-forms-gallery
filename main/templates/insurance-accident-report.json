@@ -1,4 +1,5 @@
 {
+  "schemaVersion": "1",
   "layout": {
     "title": "Insurance Accident Report",
     "steps": [
@@ -793,6 +794,5 @@
       }
     ]
   },
-  "schemaVersion": "1",
   "onSubmitMessage": "Your request has been submitted."
 }
