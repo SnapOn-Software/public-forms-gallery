@@ -1,0 +1,159 @@
+{
+  "layout": {
+    "steps": [
+      {
+        "rows": [
+          {
+            "cells": [
+              {
+                "info": {
+                  "internalName": "createdBy",
+                  "isMulti": false,
+                  "options": [
+                    { "key": "QA 1", "value": "QA 1" },
+                    { "key": "QA 2", "value": "QA 2" },
+                    { "key": "QA 3", "value": "QA 3" }
+                  ],
+                  "type": "choice",
+                  "validations": [
+                    { "name": "required" }
+                  ]
+                },
+                "title": "Created By",
+                "type": "column"
+              },
+              {
+                "info": {
+                  "internalName": "assignedTo",
+                  "isMulti": false,
+                  "options": [
+                    { "key": "DEV 1", "value": "DEV 1" },
+                    { "key": "DEV 2", "value": "DEV 2" },
+                    { "key": "DEV 3", "value": "DEV 3" }
+                  ],
+                  "type": "choice",
+                  "validations": [
+                    { "name": "required" }
+                  ]
+                },
+                "title": "Assigned To",
+                "type": "column"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "info": {
+                  "internalName": "environment",
+                  "isMulti": false,
+                  "options": [
+                    { "key": "Dev", "value": "Dev" },
+                    { "key": "Staging", "value": "Staging" },
+                    { "key": "Production", "value": "Production" }
+                  ],
+                  "type": "choice",
+                  "validations": [
+                    { "name": "required" }
+                  ]
+                },
+                "title": "Environment",
+                "type": "column"
+              },
+              {
+                "info": {
+                  "internalName": "dateSpotted",
+                  "type": "date",
+                  "validations": [
+                    { "name": "required" }
+                  ]
+                },
+                "title": "Date Spotted",
+                "type": "column"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "info": {
+                  "internalName": "priority",
+                  "isMulti": false,
+                  "options": [
+                    { "key": "Low", "value": "Low" },
+                    { "key": "Medium", "value": "Medium" },
+                    { "key": "High", "value": "High" }
+                  ],
+                  "type": "choice",
+                  "validations": [
+                    { "name": "required" }
+                  ]
+                },
+                "title": "Priority",
+                "type": "column"
+              },
+              {
+                "info": {
+                  "internalName": "bugURL",
+                  "type": "text",
+                  "validations": [
+                    { "name": "required" }
+                  ]
+                },
+                "title": "Bug URL",
+                "type": "column"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "info": {
+                  "internalName": "bugDescription",
+                  "mode": "multiline",
+                  "type": "text",
+                  "validations": [
+                    { "name": "required" }
+                  ]
+                },
+                "title": "Bug Description",
+                "type": "column"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "info": {
+                  "internalName": "stepsToReproduce",
+                  "mode": "multiline",
+                  "type": "text",
+                  "validations": [
+                    { "name": "required" }
+                  ]
+                },
+                "title": "Steps to Reproduce",
+                "type": "column"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "info": {
+                  "internalName": "bugFind",
+                  "isMulti": true,
+                  "type": "file"
+                },
+                "title": "Evidence",
+                "type": "column"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "title": "Bug Report"
+  },
+  "onSubmitMessage": "Your ticket has been submitted"
+}
