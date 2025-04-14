@@ -9,5 +9,6 @@
     { "title": "Bug Reporting Template", "description": "Report and categorize bugs", "fileName": "bug-reporting.json", "category": "Software"},
     { "title": "Customer Feedback Template", "description": "Get feedback from customers on products", "fileName": "customer-feedback.json", "category": "Outreach"},
     { "title": "Market Research Template", "description": "Survey potential customers on your product", "fileName": "market-research.json", "category": "Outreach"},
-    { "title": "Incident Reporting Template", "description": "Report Workplace Incidentes", "fileName": "incident-reporting.json", "category": "Worksite"},
+    { "title": "Incident Reporting Template", "description": "Report Workplace Incidents", "fileName": "incident-reporting.json", "category": "Office"},
+    { "title": "Time Off Request Template", "description": "Allow employees to request time off", "fileName": "time-off-request.json", "category": "Office"},
 ]
