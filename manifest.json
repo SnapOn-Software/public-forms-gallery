@@ -7,5 +7,6 @@
     { "title": "Site Visit", "description": "Report on Site Updates and Safety Hazards", "fileName": "site-visit.json", "category": "Worksite"},
     { "title": "Patient Intake Form Template", "description": "Receive patient information before a doctors appointment", "fileName": "patient-intake.json", "category": "Healthcare"},
     { "title": "Bug Reporting Template", "description": "Report and categorize bugs", "fileName": "bug-reporting.json", "category": "Software"},
-    { "title": "Customer Feedback Template", "description": "Get feedback from customers on products", "fileName": "customer-feedback.json", "category": "Outreach"}
+    { "title": "Customer Feedback Template", "description": "Get feedback from customers on products", "fileName": "customer-feedback.json", "category": "Outreach"},
+    { "title": "Market Research Template", "description": "Survey potential customers on your product", "fileName": "market-research.json", "category": "Outreach"}
 ]
