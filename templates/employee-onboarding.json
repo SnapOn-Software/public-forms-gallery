@@ -383,7 +383,7 @@
                 },
                 "title": "Manager",
                 "type": "column"
-              }
+              },
               {
                 "info": {
                   "allowSigning": true,
