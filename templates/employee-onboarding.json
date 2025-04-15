@@ -368,7 +368,7 @@
                 },
                 "title": "Employee",
                 "type": "column"
-              }
+              },
               {
                 "info": {
                   "allowSigning": true,
