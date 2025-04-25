@@ -186,17 +186,32 @@
           {
             "cells": [
               {
+                "type":"column",
+                "title":"Annotated Evidence",
+                "info":{
+                  "type": "canvas",
+                  "internalName": "Canvas_1",
+                  "allowUpload": true,
+                  "allowFullScreen":true
+                }
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
                 "info": {
                   "internalName": "incidentEvidence",
                   "isMulti": true,
                   "type": "file",
+                  "fileTypes": ["png", "jpg", "gif", "bmp", "svg", "webp", "docx", "doc", "pdf", "rtf", "txt", "odt"],
                   "validations": [
                     {
                       "name": "required"
                     }
                   ]
                 },
-                "title": "Evidence",
+                "title": "Evidence files",
                 "type": "column"
               }
             ]
