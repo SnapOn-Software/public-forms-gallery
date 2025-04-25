@@ -182,7 +182,7 @@
               {
                 "info": {
                   "internalName": "startDate",
-                  "showTime": true,
+                  "showTime": false,
                   "type": "date",
                   "validations": [
                     {
@@ -196,7 +196,7 @@
               {
                 "info": {
                   "internalName": "endDate",
-                  "showTime": true,
+                  "showTime": false,
                   "type": "date",
                   "validations": [
                     {
@@ -293,11 +293,6 @@
                   "height": 200,
                   "internalName": "signature",
                   "type": "canvas",
-                  "validations": [
-                    {
-                      "name": "required"
-                    }
-                  ],
                   "width": 200
                 },
                 "title": "HR Signature",
