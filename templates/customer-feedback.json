@@ -1,3 +1,4 @@
+
 {
   "layout": {
     "steps": [
@@ -26,7 +27,12 @@
                 "info": {
                   "internalName": "email",
                   "mode": "singleline",
-                  "type": "text"
+                  "type": "text",
+                  "validations": [
+                    {
+                      "name": "email"
+                    }
+                  ]
                 },
                 "title": "Email ",
                 "type": "column"
@@ -38,7 +44,12 @@
               {
                 "info": {
                   "internalName": "cellNumber",
-                  "type": "number"
+                  "type": "number",
+                  "validations": [
+                    {
+                      "name": "phone"
+                    }
+                  ]
                 },
                 "title": "Cell Number ",
                 "type": "column"

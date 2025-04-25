@@ -1,3 +1,4 @@
+
 {
   "layout": {
     "steps": [
@@ -103,12 +104,7 @@
                 "info": {
                   "internalName": "annualIncome",
                   "prefix": "$",
-                  "type": "number",
-                  "validations": [
-                    {
-                      "name": "required"
-                    }
-                  ]
+                  "type": "number"
                 },
                 "title": "Annual Income",
                 "type": "column"
@@ -320,9 +316,14 @@
                       "value": "Neutral"
                     },
                     {
-                      "key": "Unimportant. Very Unimportant",
-                      "value": "Unimportant. Very Unimportant"
+                      "key": "Unimportant",
+                      "value": "Unimportant"
+                    },
+                    {
+                      "key": "Very Unimportant",
+                      "value": "Very Unimportant"
                     }
+                    
                   ],
                   "type": "choice"
                 },
