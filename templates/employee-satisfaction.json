@@ -1,3 +1,4 @@
+
 {
   "layout": {
     "steps": [
@@ -15,7 +16,7 @@
             "cells": [
               {
                 "info": {
-                  "internalName": "Employee_x0020_Name",
+                  "internalName": "employeeName",
                   "mode": "singleline",
                   "type": "text",
                   "validations": [
@@ -27,7 +28,7 @@
               },
               {
                 "info": {
-                  "internalName": "Department",
+                  "internalName": "department",
                   "mode": "singleline",
                   "type": "text",
                   "validations": [
@@ -43,7 +44,7 @@
             "cells": [
               {
                 "info": {
-                  "internalName": "Title",
+                  "internalName": "title",
                   "mode": "singleline",
                   "type": "text",
                   "validations": [
@@ -55,9 +56,8 @@
               },
               {
                 "info": {
-                  "internalName": "Employment_x0020_Length",
-                  "mode": "singleline",
-                  "type": "text",
+                  "internalName": "employmentLength",
+                  "type": "number",
                   "validations": [
                     { "name": "required" }
                   ]
@@ -79,7 +79,7 @@
             "cells": [
               {
                 "info": {
-                  "internalName": "Rate_x0020_your_x0020_experience",
+                  "internalName": "rateExperience",
                   "isMulti": false,
                   "options": [
                     { "key": "1", "value": "1" },
@@ -111,7 +111,7 @@
             "cells": [
               {
                 "info": {
-                  "internalName": "What_x0020_do_x0020_you_x0020_en",
+                  "internalName": "whatDoYouEnjoyMost",
                   "mode": "multiline",
                   "type": "text",
                   "validations": [
@@ -127,7 +127,7 @@
             "cells": [
               {
                 "info": {
-                  "internalName": "What_x0020_would_x0020_you_x0020",
+                  "internalName": "whatCanBeImproved?",
                   "mode": "multiline",
                   "type": "text",
                   "validations": [
@@ -156,7 +156,8 @@
             "cells": [
               {
                 "info": {
-                  "internalName": "Do_x0020_you_x0020_feel_x0020_va",
+                  "defaultValue": "Checked",
+                  "internalName": "doYouFeelValued",
                   "off": "No",
                   "on": "Yes",
                   "type": "bool"
@@ -166,7 +167,8 @@
               },
               {
                 "info": {
-                  "internalName": "Do_x0020_you_x0020_feel_x0020_su",
+                  "defaultValue": "Checked",
+                  "internalName": "doYouFeelSupported",
                   "off": "No",
                   "on": "Yes",
                   "type": "bool"
@@ -180,9 +182,9 @@
             "cells": [
               {
                 "conditions": [
-                  { "field": "Do_x0020_you_x0020_feel_x0020_va", "operator": "is" },
+                  { "field": "doYouFeelValued", "operator": "is" },
                   {
-                    "field": "Do_x0020_you_x0020_feel_x0020_va",
+                    "field": "doYouFeelValued",
                     "joinOperator": "or",
                     "negate": true,
                     "operator": "is",
@@ -190,7 +192,7 @@
                   }
                 ],
                 "info": {
-                  "internalName": "If_x0020_no_x002c__x0020_why_x001",
+                  "internalName": "ifNotWhy",
                   "mode": "multiline",
                   "type": "text",
                   "validations": [
@@ -206,9 +208,9 @@
             "cells": [
               {
                 "conditions": [
-                  { "field": "Do_x0020_you_x0020_feel_x0020_su", "operator": "is" },
+                  { "field": "doYouFeelSupported", "operator": "is" },
                   {
-                    "field": "Do_x0020_you_x0020_feel_x0020_su",
+                    "field": "doYouFeelSupported",
                     "joinOperator": "or",
                     "negate": true,
                     "operator": "is",
@@ -216,7 +218,7 @@
                   }
                 ],
                 "info": {
-                  "internalName": "If_x0020_no_x002c__x0020_why_x000",
+                  "internalName": "ifNotSupportedWhy",
                   "mode": "multiline",
                   "type": "text",
                   "validations": [
@@ -240,7 +242,7 @@
             "cells": [
               {
                 "info": {
-                  "internalName": "How_x0020_happy_x0020_are_x0020_",
+                  "internalName": "compensationSatisfaction",
                   "isMulti": false,
                   "options": [
                     { "key": "Very happy", "value": "Very happy" },
@@ -256,7 +258,7 @@
               },
               {
                 "info": {
-                  "internalName": "How_x0020_happy_x0020_are_x0020_0",
+                  "internalName": "benifitsSatisfaction",
                   "isMulti": false,
                   "options": [
                     { "key": "Very happy", "value": "Very happy" },
@@ -276,7 +278,7 @@
             "cells": [
               {
                 "info": {
-                  "internalName": "What_x0020_benefits_x0020_would_",
+                  "internalName": "benefitsAdded",
                   "mode": "multiline",
                   "type": "text",
                   "validations": [
@@ -305,7 +307,7 @@
             "cells": [
               {
                 "info": {
-                  "internalName": "How_x0020_would_x0020_you_x0020_",
+                  "internalName": "careerGrowth",
                   "isMulti": false,
                   "options": [
                     { "key": "Great", "value": "Great" },
@@ -321,7 +323,7 @@
               },
               {
                 "info": {
-                  "internalName": "Did_x0020_you_x0020_receive_x002",
+                  "internalName": "trainingReceived",
                   "isMulti": false,
                   "options": [
                     { "key": "Strongly Agree", "value": "Strongly Agree" },
@@ -341,7 +343,7 @@
             "cells": [
               {
                 "info": {
-                  "internalName": "What_x0020_would_x0020_you_x00200",
+                  "internalName": "nextYearAchievements",
                   "mode": "multiline",
                   "type": "text",
                   "validations": [
@@ -366,7 +368,7 @@
             "cells": [
               {
                 "info": {
-                  "internalName": "How_x0020_would_x0020_you_x0020_0",
+                  "internalName": "workLifeBalance",
                   "isMulti": false,
                   "options": [
                     { "key": "Very good", "value": "Very good" },
@@ -382,7 +384,7 @@
               },
               {
                 "info": {
-                  "internalName": "How_x0020_manageable_x0020_is_x0",
+                  "internalName": "workloadManageability",
                   "isMulti": false,
                   "options": [
                     { "key": "Unbearable", "value": "Unbearable" },
@@ -401,7 +403,7 @@
             "cells": [
               {
                 "info": {
-                  "internalName": "What_x0020_could_x0020_be_x0020_",
+                  "internalName": "balanceImprovement",
                   "mode": "multiline",
                   "type": "text",
                   "validations": [
