@@ -1,0 +1,222 @@
+{
+    "layout": {
+        "steps": [
+            {
+                "rows": [
+                    {
+                        "cells": [
+                            {
+                                "info": {
+                                    "defaultValue": "Web",
+                                    "internalName": "Origin",
+                                    "options": [
+                                        {
+                                            "key": "Phone",
+                                            "value": "Phone"
+                                        },
+                                        {
+                                            "key": "Email",
+                                            "value": "Email"
+                                        },
+                                        {
+                                            "key": "Web",
+                                            "value": "Web"
+                                        }
+                                    ],
+                                    "type": "choice"
+                                },
+                                "title": "Case Origin",
+                                "type": "column"
+                            }
+                        ],
+                        "hidden": true
+                    },
+                    {
+                        "cells": [
+                            {
+                                "info": {
+                                    "internalName": "SuppliedCompany",
+                                    "type": "text",
+                                    "validations": [
+                                        {
+                                            "name": "required"
+                                        }
+                                    ]
+                                },
+                                "title": "Company",
+                                "type": "column"
+                            },
+                            {
+                                "info": {
+                                    "internalName": "SuppliedName",
+                                    "type": "text",
+                                    "validations": [
+                                        {
+                                            "name": "required"
+                                        }
+                                    ]
+                                },
+                                "title": "Name",
+                                "type": "column"
+                            }
+                        ]
+                    },
+                    {
+                        "cells": [
+                            {
+                                "info": {
+                                    "internalName": "SuppliedEmail",
+                                    "type": "text",
+                                    "validations": [
+                                        {
+                                            "name": "email"
+                                        },
+                                        {
+                                            "name": "required"
+                                        }
+                                    ]
+                                },
+                                "title": "Email Address",
+                                "type": "column"
+                            },
+                            {
+                                "info": {
+                                    "internalName": "SuppliedPhone",
+                                    "type": "text"
+                                },
+                                "title": "Phone",
+                                "type": "column"
+                            }
+                        ]
+                    },
+                    {
+                        "cells": [
+                            {
+                                "info": {
+                                    "internalName": "Reason",
+                                    "options": [
+                                        {
+                                            "key": "Installation",
+                                            "value": "Installation"
+                                        },
+                                        {
+                                            "key": "Equipment Complexity",
+                                            "value": "Equipment Complexity"
+                                        },
+                                        {
+                                            "key": "Performance",
+                                            "value": "Performance"
+                                        },
+                                        {
+                                            "key": "Breakdown",
+                                            "value": "Breakdown"
+                                        },
+                                        {
+                                            "key": "Equipment Design",
+                                            "value": "Equipment Design"
+                                        },
+                                        {
+                                            "key": "Feedback",
+                                            "value": "Feedback"
+                                        },
+                                        {
+                                            "key": "Other",
+                                            "value": "Other"
+                                        }
+                                    ],
+                                    "type": "choice"
+                                },
+                                "title": "What do your need help with?",
+                                "type": "column"
+                            },
+                            {
+                                "info": {
+                                    "internalName": "Product__c",
+                                    "options": [
+                                        {
+                                            "key": "GC1040",
+                                            "value": "GC1040"
+                                        },
+                                        {
+                                            "key": "GC1060",
+                                            "value": "GC1060"
+                                        },
+                                        {
+                                            "key": "GC3020",
+                                            "value": "GC3020"
+                                        },
+                                        {
+                                            "key": "GC3040",
+                                            "value": "GC3040"
+                                        },
+                                        {
+                                            "key": "GC3060",
+                                            "value": "GC3060"
+                                        },
+                                        {
+                                            "key": "GC5020",
+                                            "value": "GC5020"
+                                        },
+                                        {
+                                            "key": "GC5040",
+                                            "value": "GC5040"
+                                        },
+                                        {
+                                            "key": "GC5060",
+                                            "value": "GC5060"
+                                        },
+                                        {
+                                            "key": "GC1020",
+                                            "value": "GC1020"
+                                        }
+                                    ],
+                                    "type": "choice"
+                                },
+                                "title": "What product do you need support with?",
+                                "type": "column"
+                            }
+                        ]
+                    },
+                    {
+                        "cells": [
+                            {
+                                "info": {
+                                    "internalName": "Subject",
+                                    "type": "text",
+                                    "validations": [
+                                        {
+                                            "name": "required"
+                                        }
+                                    ]
+                                },
+                                "title": "Subject",
+                                "type": "column"
+                            }
+                        ]
+                    },
+                    {
+                        "cells": [
+                            {
+                                "info": {
+                                    "internalName": "Description",
+                                    "mode": "multiline",
+                                    "type": "text",
+                                    "validations": [
+                                        {
+                                            "name": "required"
+                                        }
+                                    ]
+                                },
+                                "title": "Description",
+                                "type": "column"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "title": "Submit a ticket"
+    },
+    "onSubmitMessage": "Your request has been submitted.",
+    "schemaVersion": 1
+}

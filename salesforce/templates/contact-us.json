@@ -1,0 +1,198 @@
+{
+  "layout": {
+    "steps": [
+      {
+        "rows": [
+          {
+            "cells": [
+              {
+                "info": {
+                  "defaultValue": "Web",
+                  "internalName": "LeadSource",
+                  "options": [
+                    { "key": "Web", "value": "Web" },
+                    { "key": "Phone Inquiry", "value": "Phone Inquiry" },
+                    { "key": "Partner Referral", "value": "Partner Referral" },
+                    { "key": "Purchased List", "value": "Purchased List" },
+                    { "key": "Other", "value": "Other" }
+                  ],
+                  "type": "choice"
+                },
+                "title": "Lead Source",
+                "type": "column"
+              }
+            ],
+            "hidden": true
+          },
+          {
+            "cells": [
+              {
+                "info": {
+                  "internalName": "FirstName",
+                  "type": "text",
+                  "validations": [{ "name": "required" }]
+                },
+                "title": "First Name",
+                "type": "column"
+              },
+              {
+                "info": {
+                  "internalName": "LastName",
+                  "type": "text",
+                  "validations": [{ "name": "required" }]
+                },
+                "title": "Last Name",
+                "type": "column"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "info": { "internalName": "Title", "type": "text" },
+                "title": "Title",
+                "type": "column"
+              },
+              {
+                "info": {
+                  "internalName": "Company",
+                  "type": "text",
+                  "validations": [{ "name": "required" }]
+                },
+                "title": "Company",
+                "type": "column"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "grow": 3,
+                "info": {
+                  "internalName": "Email",
+                  "type": "text",
+                  "validations": [{ "name": "required" }, { "name": "email" }]
+                },
+                "title": "Work Email",
+                "type": "column"
+              },
+              {
+                "info": {
+                  "internalName": "optin",
+                  "off": "Opted out",
+                  "on": "Opted in",
+                  "type": "bool"
+                },
+                "title": "Promotions emails",
+                "type": "column"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "grow": 3,
+                "info": {
+                  "internalName": "MobilePhone",
+                  "prefix": "#",
+                  "type": "text",
+                  "validations": [{ "name": "phone" }]
+                },
+                "title": "Phone number",
+                "type": "column"
+              },
+              {
+                "conditions": [
+                  {
+                    "field": "MobilePhone",
+                    "negate": true,
+                    "operator": "empty"
+                  }
+                ],
+                "else": {
+                  "html": "Enter your phone for exclusive deals!",
+                  "type": "html"
+                },
+                "info": {
+                  "internalName": "optintext",
+                  "off": "Opted out",
+                  "on": "Opted in",
+                  "type": "bool"
+                },
+                "title": "Promotions SMS?",
+                "type": "column"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "conditions": [
+                  { "field": "optin", "operator": "is", "value": "true" },
+                  {
+                    "field": "optintext",
+                    "joinOperator": "or",
+                    "operator": "is",
+                    "value": "true"
+                  }
+                ],
+                "html": "You have opted in for promotional materials. These may include time-sensitive promotions and promotion codes and exclusive deals that are only available for subscribers.",
+                "info": {
+                  "requiredRead": "I agree to receive promotional materials and exclusive deals."
+                },
+                "type": "html"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "info": {
+                  "internalName": "ProductInterest__c",
+                  "options": [
+                    { "key": "GC1000 series", "value": "GC1000 series" },
+                    { "key": "GC5000 series", "value": "GC5000 series" },
+                    { "key": "GC3000 series", "value": "GC3000 series" }
+                  ],
+                  "type": "choice"
+                },
+                "title": "Product Interest",
+                "type": "column"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "info": {
+                  "internalName": "Description",
+                  "mode": "multiline",
+                  "type": "text",
+                  "validations": [
+                    { "name": "required" },
+                    {
+                      "conditions": [
+                        {
+                          "field": "Description",
+                          "negate": true,
+                          "operator": "more",
+                          "value": "5"
+                        }
+                      ],
+                      "error": "Please provide more information"
+                    }
+                  ]
+                },
+                "title": "Message",
+                "type": "column"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "title": "Contact Us"
+  },
+  "onSubmitMessage": "Thank you for contacting us!",
+  "schemaVersion": 1
+}

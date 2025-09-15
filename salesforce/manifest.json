@@ -1,2 +1,14 @@
 [
+    {
+        "title": "Contact form",
+        "description": "A simple 'contact us' to lead form",
+        "fileName": "contact-us.json",
+        "category": "Leads"
+    },
+    {
+        "title": "Submit a ticket",
+        "description": "Create a case from a support ticket request",
+        "fileName": "submit-ticket.json",
+        "category": "Cases"
+    }
 ]
