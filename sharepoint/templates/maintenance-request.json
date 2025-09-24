@@ -1,0 +1,99 @@
+{
+  "layout": {
+    "steps": [
+      {
+        "rows": [
+          {
+            "cells": [
+              {
+                "info": {
+                  "internalName": "Title",
+                  "type": "text",
+                  "validations": []
+                },
+                "title": "Location (hidden, pass a value using ?title= parameter)",
+                "type": "column"
+              }
+            ],
+            "hidden": true
+          },
+          {
+            "cells": [
+              {
+                "html": "<p>You are submitting a request for [Title]</p>",
+                "type": "html"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "info": {
+                  "defaultValue": "Cleaning",
+                  "internalName": "Severity",
+                  "options": [
+                    { "key": "Cleaning", "value": "Cleaning" },
+                    { "key": "Safety", "value": "Safety" },
+                    { "key": "Urgent", "value": "Urgent" }
+                  ],
+                  "type": "choice",
+                  "validations": [{ "name": "required" }]
+                },
+                "title": "Severity",
+                "type": "column"
+              },
+              {
+                "info": {
+                  "internalName": "Contactinfo",
+                  "placeholder": "Provide your name, email or number if you would like a follow up call",
+                  "type": "text"
+                },
+                "title": "Contact info",
+                "type": "column"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "info": {
+                  "internalName": "Details",
+                  "mode": "multiline",
+                  "type": "text",
+                  "validations": [
+                    { "name": "required" },
+                    {
+                      "conditions": [
+                        { "field": "Details", "operator": "less", "value": "3" }
+                      ],
+                      "error": "Please provide more details"
+                    }
+                  ]
+                },
+                "title": "Details",
+                "type": "column"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "info": {
+                  "allowFullScreen": true,
+                  "allowUpload": true,
+                  "internalName": "picture",
+                  "type": "canvas"
+                },
+                "title": "Take a picture & mark it",
+                "type": "column"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "title": "Maintenance Request"
+  },
+  "onSubmitMessage": "Your request has been submitted.",
+  "schemaVersion": 1
+}
