@@ -10,11 +10,26 @@
                   "defaultValue": "Web",
                   "internalName": "LeadSource",
                   "options": [
-                    { "key": "Web", "value": "Web" },
-                    { "key": "Phone Inquiry", "value": "Phone Inquiry" },
-                    { "key": "Partner Referral", "value": "Partner Referral" },
-                    { "key": "Purchased List", "value": "Purchased List" },
-                    { "key": "Other", "value": "Other" }
+                    {
+                      "key": "Web",
+                      "value": "Web"
+                    },
+                    {
+                      "key": "Phone Inquiry",
+                      "value": "Phone Inquiry"
+                    },
+                    {
+                      "key": "Partner Referral",
+                      "value": "Partner Referral"
+                    },
+                    {
+                      "key": "Purchased List",
+                      "value": "Purchased List"
+                    },
+                    {
+                      "key": "Other",
+                      "value": "Other"
+                    }
                   ],
                   "type": "choice"
                 },
@@ -30,7 +45,11 @@
                 "info": {
                   "internalName": "FirstName",
                   "type": "text",
-                  "validations": [{ "name": "required" }]
+                  "validations": [
+                    {
+                      "name": "required"
+                    }
+                  ]
                 },
                 "title": "First Name",
                 "type": "column"
@@ -39,7 +58,11 @@
                 "info": {
                   "internalName": "LastName",
                   "type": "text",
-                  "validations": [{ "name": "required" }]
+                  "validations": [
+                    {
+                      "name": "required"
+                    }
+                  ]
                 },
                 "title": "Last Name",
                 "type": "column"
@@ -49,7 +72,10 @@
           {
             "cells": [
               {
-                "info": { "internalName": "Title", "type": "text" },
+                "info": {
+                  "internalName": "Title",
+                  "type": "text"
+                },
                 "title": "Title",
                 "type": "column"
               },
@@ -57,7 +83,11 @@
                 "info": {
                   "internalName": "Company",
                   "type": "text",
-                  "validations": [{ "name": "required" }]
+                  "validations": [
+                    {
+                      "name": "required"
+                    }
+                  ]
                 },
                 "title": "Company",
                 "type": "column"
@@ -71,19 +101,26 @@
                 "info": {
                   "internalName": "Email",
                   "type": "text",
-                  "validations": [{ "name": "required" }, { "name": "email" }]
+                  "validations": [
+                    {
+                      "name": "required"
+                    },
+                    {
+                      "name": "email"
+                    }
+                  ]
                 },
                 "title": "Work Email",
                 "type": "column"
               },
               {
                 "info": {
-                  "internalName": "optin",
-                  "off": "Opted out",
-                  "on": "Opted in",
+                  "internalName": "HasOptedOutOfEmail",
+                  "off": "Opted in",
+                  "on": "Opted out",
                   "type": "bool"
                 },
-                "title": "Promotions emails",
+                "title": "Opt out?",
                 "type": "column"
               }
             ]
@@ -96,7 +133,11 @@
                   "internalName": "MobilePhone",
                   "prefix": "#",
                   "type": "text",
-                  "validations": [{ "name": "phone" }]
+                  "validations": [
+                    {
+                      "name": "phone"
+                    }
+                  ]
                 },
                 "title": "Phone number",
                 "type": "column"
@@ -114,12 +155,12 @@
                   "type": "html"
                 },
                 "info": {
-                  "internalName": "optintext",
-                  "off": "Opted out",
-                  "on": "Opted in",
+                  "internalName": "DoNotCall",
+                  "off": "Opted in",
+                  "on": "Opted out",
                   "type": "bool"
                 },
-                "title": "Promotions SMS?",
+                "title": "Opt out?",
                 "type": "column"
               }
             ]
@@ -128,12 +169,16 @@
             "cells": [
               {
                 "conditions": [
-                  { "field": "optin", "operator": "is", "value": "true" },
                   {
-                    "field": "optintext",
-                    "joinOperator": "or",
+                    "field": "HasOptedOutOfEmail",
                     "operator": "is",
-                    "value": "true"
+                    "value": "false"
+                  },
+                  {
+                    "joinOperator": "or",
+                    "field": "DoNotCall",
+                    "operator": "is",
+                    "value": "false"
                   }
                 ],
                 "html": "You have opted in for promotional materials. These may include time-sensitive promotions and promotion codes and exclusive deals that are only available for subscribers.",
@@ -150,9 +195,18 @@
                 "info": {
                   "internalName": "ProductInterest__c",
                   "options": [
-                    { "key": "GC1000 series", "value": "GC1000 series" },
-                    { "key": "GC5000 series", "value": "GC5000 series" },
-                    { "key": "GC3000 series", "value": "GC3000 series" }
+                    {
+                      "key": "GC1000 series",
+                      "value": "GC1000 series"
+                    },
+                    {
+                      "key": "GC5000 series",
+                      "value": "GC5000 series"
+                    },
+                    {
+                      "key": "GC3000 series",
+                      "value": "GC3000 series"
+                    }
                   ],
                   "type": "choice"
                 },
@@ -169,7 +223,9 @@
                   "mode": "multiline",
                   "type": "text",
                   "validations": [
-                    { "name": "required" },
+                    {
+                      "name": "required"
+                    },
                     {
                       "conditions": [
                         {
