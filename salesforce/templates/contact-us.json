@@ -179,6 +179,11 @@
                     "field": "DoNotCall",
                     "operator": "is",
                     "value": "false"
+                  },
+                  {
+                    "field": "MobilePhone",
+                    "operator": "empty",
+                    "negate": true
                   }
                 ],
                 "html": "You have opted in for promotional materials. These may include time-sensitive promotions and promotion codes and exclusive deals that are only available for subscribers.",
