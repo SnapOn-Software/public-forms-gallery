@@ -13,7 +13,7 @@
                                 "info": {
                                     "internalName": "title",
                                     "type": "text",
-                                    "defaultValue": "[Email] [FirstName] [LastName]"
+                                    "defaultValue": "[email] [firstName] [lastName]"
                                 }
                             }
                         ]

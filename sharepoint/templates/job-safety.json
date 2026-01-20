@@ -21,7 +21,7 @@
                                 "info": {
                                     "internalName": "title",
                                     "type": "text",
-                                    "defaultValue": "[Severity] [JobID] [Location]"
+                                    "defaultValue": "[severity] [jobID] [location]"
                                 }
                             }
                         ]
