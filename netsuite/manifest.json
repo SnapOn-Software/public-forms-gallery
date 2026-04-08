@@ -1,0 +1,14 @@
+[
+    {
+        "title": "New account",
+        "description": "Create a new account record",
+        "fileName": "account.json",
+        "category": "Account"
+    },
+    {
+        "title": "New customer",
+        "description": "Create a new customer record",
+        "fileName": "customer.json",
+        "category": "Customer"
+    }
+]

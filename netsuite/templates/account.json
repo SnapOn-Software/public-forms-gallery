@@ -1,0 +1,1110 @@
+{
+  "layout": {
+    "steps": [
+      {
+        "rows": [
+          {
+            "cells": [
+              {
+                "info": {
+                  "internalName": "acctnumber",
+                  "type": "text",
+                  "validations": [
+                    {
+                      "name": "required"
+                    }
+                  ]
+                },
+                "title": "Number",
+                "type": "column"
+              },
+              {
+                "info": {
+                  "internalName": "acctname",
+                  "type": "text",
+                  "validations": [
+                    {
+                      "name": "required"
+                    }
+                  ]
+                },
+                "title": "Name",
+                "type": "column"
+              },
+              {
+                "info": {
+                  "internalName": "parent",
+                  "options": [
+                    {
+                      "key": "1",
+                      "value": "1000 Checking"
+                    },
+                    {
+                      "key": "2",
+                      "value": "1002 Savings"
+                    },
+                    {
+                      "key": "3",
+                      "value": "1004 Payroll"
+                    },
+                    {
+                      "key": "4",
+                      "value": "1006 Petty Cash"
+                    },
+                    {
+                      "key": "5",
+                      "value": "1008 Cash on Hand"
+                    },
+                    {
+                      "key": "7",
+                      "value": "1100 Accounts Receivable"
+                    },
+                    {
+                      "key": "119",
+                      "value": "Advances Paid"
+                    },
+                    {
+                      "key": "120",
+                      "value": "Inventory Asset"
+                    },
+                    {
+                      "key": "148",
+                      "value": "Inventory In Transit"
+                    },
+                    {
+                      "key": "143",
+                      "value": "Inventory Returned Not Credited"
+                    },
+                    {
+                      "key": "8",
+                      "value": "1102 Allowance for Doubtful Accounts"
+                    },
+                    {
+                      "key": "10",
+                      "value": "1150 Employee Advances"
+                    },
+                    {
+                      "key": "12",
+                      "value": "1300 Prepaid Expenses"
+                    },
+                    {
+                      "key": "13",
+                      "value": "1310 Prepaid Income Taxes"
+                    },
+                    {
+                      "key": "14",
+                      "value": "1320 Note Receivable-Current"
+                    },
+                    {
+                      "key": "159",
+                      "value": "1350 WIP"
+                    },
+                    {
+                      "key": "160",
+                      "value": "1351 WIP : WIP Revenue"
+                    },
+                    {
+                      "key": "161",
+                      "value": "1352 WIP : WIP COGS"
+                    },
+                    {
+                      "key": "15",
+                      "value": "1400 IT Equipment"
+                    },
+                    {
+                      "key": "16",
+                      "value": "1410 Furniture & Fixtures"
+                    },
+                    {
+                      "key": "17",
+                      "value": "1420 Machinery & Equipment"
+                    },
+                    {
+                      "key": "156",
+                      "value": "1450 Building"
+                    },
+                    {
+                      "key": "18",
+                      "value": "1470 Leasehold Improvements"
+                    },
+                    {
+                      "key": "19",
+                      "value": "1510 Acc. Dep-Furniture & Fixtures"
+                    },
+                    {
+                      "key": "141",
+                      "value": "1511 Acc. Dep - IT Equipment"
+                    },
+                    {
+                      "key": "20",
+                      "value": "1520 Acc. Dep-Machinery & Equipment"
+                    },
+                    {
+                      "key": "21",
+                      "value": "1560 Acc. Dep-Building"
+                    },
+                    {
+                      "key": "22",
+                      "value": "1570 Acc. Dep-Leasehold Improvements"
+                    },
+                    {
+                      "key": "23",
+                      "value": "1900 Deposits"
+                    },
+                    {
+                      "key": "25",
+                      "value": "2000 Accounts Payable"
+                    },
+                    {
+                      "key": "176",
+                      "value": "2001 Accounts Payable 2"
+                    },
+                    {
+                      "key": "129",
+                      "value": "1050 First Community Bank VISA"
+                    },
+                    {
+                      "key": "132",
+                      "value": "Commissions Payable"
+                    },
+                    {
+                      "key": "149",
+                      "value": "Customer Deposits"
+                    },
+                    {
+                      "key": "170",
+                      "value": "Failed ACH Transactions"
+                    },
+                    {
+                      "key": "114",
+                      "value": "Inventory Received Not Billed"
+                    },
+                    {
+                      "key": "115",
+                      "value": "Refunds Payable"
+                    },
+                    {
+                      "key": "184",
+                      "value": "Sales Taxes Payable AK"
+                    },
+                    {
+                      "key": "26",
+                      "value": "2005 Accrued Expenses"
+                    },
+                    {
+                      "key": "27",
+                      "value": "2010 Accrued Wages"
+                    },
+                    {
+                      "key": "135",
+                      "value": "2018 Gift Certificates"
+                    },
+                    {
+                      "key": "28",
+                      "value": "2020 Accrued Vacation & Sick Pay"
+                    },
+                    {
+                      "key": "29",
+                      "value": "2030 Credit Card Payable"
+                    },
+                    {
+                      "key": "30",
+                      "value": "2040 Payroll Liabilities"
+                    },
+                    {
+                      "key": "37",
+                      "value": "2050 Sales Taxes Payable"
+                    },
+                    {
+                      "key": "38",
+                      "value": "2055 Income Taxes Payable"
+                    },
+                    {
+                      "key": "41",
+                      "value": "2080 Retirement Contribution Payable"
+                    },
+                    {
+                      "key": "43",
+                      "value": "2500 Contract Payable #1"
+                    },
+                    {
+                      "key": "46",
+                      "value": "3002 Owner's Capital"
+                    },
+                    {
+                      "key": "47",
+                      "value": "3004 Owner's Drawing"
+                    },
+                    {
+                      "key": "52",
+                      "value": "3020 Capital Stock"
+                    },
+                    {
+                      "key": "134",
+                      "value": "Uncategorized Income"
+                    },
+                    {
+                      "key": "55",
+                      "value": "4000 Sales"
+                    },
+                    {
+                      "key": "56",
+                      "value": "4002 Sales : Sales - Merchandise"
+                    },
+                    {
+                      "key": "57",
+                      "value": "4004 Sales : Sales - Service"
+                    },
+                    {
+                      "key": "58",
+                      "value": "4006 Sales : Sales - Clearance"
+                    },
+                    {
+                      "key": "130",
+                      "value": "4008 Sales : Sales - Warranty"
+                    },
+                    {
+                      "key": "162",
+                      "value": "4100 WIP eRev"
+                    },
+                    {
+                      "key": "121",
+                      "value": "Cost of Goods Sold"
+                    },
+                    {
+                      "key": "59",
+                      "value": "5000 Purchases"
+                    },
+                    {
+                      "key": "60",
+                      "value": "5002 Purchases : Merchandise"
+                    },
+                    {
+                      "key": "61",
+                      "value": "5004 Purchases : Service"
+                    },
+                    {
+                      "key": "62",
+                      "value": "5020 Salaries & Wages"
+                    },
+                    {
+                      "key": "144",
+                      "value": "5040 Damaged Goods"
+                    },
+                    {
+                      "key": "146",
+                      "value": "5080 Inventory Write Offs"
+                    },
+                    {
+                      "key": "168",
+                      "value": "5085 Customer Return Variance"
+                    },
+                    {
+                      "key": "169",
+                      "value": "5086 Vendor Return Variance"
+                    },
+                    {
+                      "key": "64",
+                      "value": "5090 Inventory Variance"
+                    },
+                    {
+                      "key": "153",
+                      "value": "5091 Inventory Transfer Price Gain / Loss"
+                    },
+                    {
+                      "key": "164",
+                      "value": "5092 Purchase Price Variance"
+                    },
+                    {
+                      "key": "165",
+                      "value": "5093 Build Price Variance"
+                    },
+                    {
+                      "key": "166",
+                      "value": "5094 Build Quantity Variance"
+                    },
+                    {
+                      "key": "150",
+                      "value": "5095 Bill Quantity Variance"
+                    },
+                    {
+                      "key": "151",
+                      "value": "5096 Bill Price Variance"
+                    },
+                    {
+                      "key": "152",
+                      "value": "5097 Bill Exchange Rate Variance"
+                    },
+                    {
+                      "key": "154",
+                      "value": "5098 Unbuild Variance"
+                    },
+                    {
+                      "key": "163",
+                      "value": "5100 Mfg WIP"
+                    },
+                    {
+                      "key": "177",
+                      "value": "5101 Mfg Scrap"
+                    },
+                    {
+                      "key": "183",
+                      "value": "5102 WIP Variance"
+                    },
+                    {
+                      "key": "167",
+                      "value": "5200 Vendor Rebates"
+                    },
+                    {
+                      "key": "65",
+                      "value": "6010 Advertising"
+                    },
+                    {
+                      "key": "66",
+                      "value": "6015 Amortization Expense"
+                    },
+                    {
+                      "key": "137",
+                      "value": "6017 Duty Expense"
+                    },
+                    {
+                      "key": "138",
+                      "value": "6018 Freight Expense"
+                    },
+                    {
+                      "key": "67",
+                      "value": "6020 Automobile Expense"
+                    },
+                    {
+                      "key": "68",
+                      "value": "6022 Automobile Expense : Gas & Oil"
+                    },
+                    {
+                      "key": "69",
+                      "value": "6024 Automobile Expense : Repairs"
+                    },
+                    {
+                      "key": "70",
+                      "value": "6030 Bad Debt Expense"
+                    },
+                    {
+                      "key": "71",
+                      "value": "6040 Bank Service Charges"
+                    },
+                    {
+                      "key": "72",
+                      "value": "6050 Contributions"
+                    },
+                    {
+                      "key": "73",
+                      "value": "6060 Depreciation Expense"
+                    },
+                    {
+                      "key": "74",
+                      "value": "6070 Dues & Subscriptions"
+                    },
+                    {
+                      "key": "75",
+                      "value": "6080 Equipment Rental"
+                    },
+                    {
+                      "key": "126",
+                      "value": "6085 Furniture & Fixtures Expense"
+                    },
+                    {
+                      "key": "76",
+                      "value": "6090 Freight & Delivery"
+                    },
+                    {
+                      "key": "77",
+                      "value": "6100 Insurance Expense"
+                    },
+                    {
+                      "key": "78",
+                      "value": "6102 Insurance Expense : Liability"
+                    },
+                    {
+                      "key": "79",
+                      "value": "6104 Insurance Expense : Workers' compensation"
+                    },
+                    {
+                      "key": "80",
+                      "value": "6106 Insurance Expense : Disability"
+                    },
+                    {
+                      "key": "81",
+                      "value": "6110 Interest Expense"
+                    },
+                    {
+                      "key": "82",
+                      "value": "6120 Meals & Entertainment"
+                    },
+                    {
+                      "key": "83",
+                      "value": "6130 Miscellaneous Expense"
+                    },
+                    {
+                      "key": "84",
+                      "value": "6150 Office Expense"
+                    },
+                    {
+                      "key": "85",
+                      "value": "6160 Outside Services"
+                    },
+                    {
+                      "key": "86",
+                      "value": "6170 Postage & Delivery"
+                    },
+                    {
+                      "key": "87",
+                      "value": "6180 Professional Fees"
+                    },
+                    {
+                      "key": "127",
+                      "value": "6182 Professional Fees : Accounting"
+                    },
+                    {
+                      "key": "128",
+                      "value": "6184 Professional Fees : Legal"
+                    },
+                    {
+                      "key": "88",
+                      "value": "6200 Rent Expense"
+                    },
+                    {
+                      "key": "89",
+                      "value": "6220 Repairs & Maintenance"
+                    },
+                    {
+                      "key": "90",
+                      "value": "6230 Supplies Expense"
+                    },
+                    {
+                      "key": "92",
+                      "value": "6250 Taxes & Licenses-Other"
+                    },
+                    {
+                      "key": "93",
+                      "value": "6252 Taxes & Licenses-Other : Business"
+                    },
+                    {
+                      "key": "94",
+                      "value": "6254 Taxes & Licenses-Other : Property"
+                    },
+                    {
+                      "key": "96",
+                      "value": "6260 Telephone Expense"
+                    },
+                    {
+                      "key": "97",
+                      "value": "6262 Telephone Expense : Regular Service"
+                    },
+                    {
+                      "key": "99",
+                      "value": "6266 Telephone Expense : Cellular"
+                    },
+                    {
+                      "key": "100",
+                      "value": "6268 Telephone Expense : Online Fees"
+                    },
+                    {
+                      "key": "101",
+                      "value": "6300 Utilities"
+                    },
+                    {
+                      "key": "113",
+                      "value": "6400 Salaries & Wages Expense"
+                    },
+                    {
+                      "key": "91",
+                      "value": "6500 Payroll Expenses"
+                    },
+                    {
+                      "key": "178",
+                      "value": "6600 Manufacturing Expenses"
+                    },
+                    {
+                      "key": "179",
+                      "value": "6610 Manufacturing Expenses : Labor"
+                    },
+                    {
+                      "key": "180",
+                      "value": "6620 Manufacturing Expenses : Labor Burden"
+                    },
+                    {
+                      "key": "181",
+                      "value": "6630 Manufacturing Expenses : Machine"
+                    },
+                    {
+                      "key": "182",
+                      "value": "6640 Manufacturing Expenses : Machine Burden"
+                    },
+                    {
+                      "key": "103",
+                      "value": "8010 Interest Income"
+                    },
+                    {
+                      "key": "104",
+                      "value": "8015 Finance Charge Income"
+                    },
+                    {
+                      "key": "105",
+                      "value": "8020 Dividend Income"
+                    },
+                    {
+                      "key": "106",
+                      "value": "8030 Shipping Income"
+                    },
+                    {
+                      "key": "108",
+                      "value": "8050 Sales Discounts"
+                    },
+                    {
+                      "key": "109",
+                      "value": "8060 Purchase Discounts"
+                    },
+                    {
+                      "key": "110",
+                      "value": "8070 Penalties"
+                    },
+                    {
+                      "key": "111",
+                      "value": "9000 Provision for Taxes"
+                    },
+                    {
+                      "key": "112",
+                      "value": "9999 Ask My Accountant"
+                    },
+                    {
+                      "key": "133",
+                      "value": "Exchange Rate Variance"
+                    },
+                    {
+                      "key": "157",
+                      "value": "Realized Gain/Loss"
+                    },
+                    {
+                      "key": "155",
+                      "value": "Rounding Gain/Loss"
+                    },
+                    {
+                      "key": "158",
+                      "value": "Unrealized Gain/Loss"
+                    },
+                    {
+                      "key": "107",
+                      "value": "8040 Gain (loss) on Sale of Assets"
+                    },
+                    {
+                      "key": "139",
+                      "value": "Deferred Expense"
+                    },
+                    {
+                      "key": "140",
+                      "value": "1111 Accumulated Depreciation"
+                    }
+                  ],
+                  "type": "choice"
+                },
+                "title": "Subaccount of",
+                "type": "column"
+              },
+              {
+                "info": {
+                  "defaultValue": false,
+                  "internalName": "inventory",
+                  "type": "bool"
+                },
+                "title": "Inventory",
+                "type": "column"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "info": {
+                  "defaultValue": "Bank",
+                  "internalName": "accttype",
+                  "options": [
+                    {
+                      "key": "Bank",
+                      "value": "Bank"
+                    },
+                    {
+                      "key": "AcctRec",
+                      "value": "Accounts Receivable"
+                    },
+                    {
+                      "key": "OthCurrAsset",
+                      "value": "Other Current Asset"
+                    },
+                    {
+                      "key": "FixedAsset",
+                      "value": "Fixed Asset"
+                    },
+                    {
+                      "key": "OthAsset",
+                      "value": "Other Asset"
+                    },
+                    {
+                      "key": "AcctPay",
+                      "value": "Accounts Payable"
+                    },
+                    {
+                      "key": "CredCard",
+                      "value": "Credit Card"
+                    },
+                    {
+                      "key": "OthCurrLiab",
+                      "value": "Other Current Liability"
+                    },
+                    {
+                      "key": "LongTermLiab",
+                      "value": "Long Term Liability"
+                    },
+                    {
+                      "key": "Equity",
+                      "value": "Equity"
+                    },
+                    {
+                      "key": "Income",
+                      "value": "Income"
+                    },
+                    {
+                      "key": "COGS",
+                      "value": "Cost of Goods Sold"
+                    },
+                    {
+                      "key": "Expense",
+                      "value": "Expense"
+                    },
+                    {
+                      "key": "OthIncome",
+                      "value": "Other Income"
+                    },
+                    {
+                      "key": "OthExpense",
+                      "value": "Other Expense"
+                    },
+                    {
+                      "key": "NonPosting",
+                      "value": "Non Posting"
+                    },
+                    {
+                      "key": "DeferRevenue",
+                      "value": "Deferred Revenue"
+                    },
+                    {
+                      "key": "DeferExpense",
+                      "value": "Deferred Expense"
+                    },
+                    {
+                      "key": "UnbilledRec",
+                      "value": "Unbilled Receivable"
+                    }
+                  ],
+                  "type": "choice",
+                  "validations": [
+                    {
+                      "name": "required"
+                    }
+                  ]
+                },
+                "title": "Type",
+                "type": "column"
+              },
+              {
+                "info": {
+                  "internalName": "currency",
+                  "options": [
+                    {
+                      "key": "2",
+                      "value": "British pound"
+                    },
+                    {
+                      "key": "3",
+                      "value": "Canadian dollar"
+                    },
+                    {
+                      "key": "4",
+                      "value": "Euro"
+                    },
+                    {
+                      "key": "1",
+                      "value": "USA"
+                    }
+                  ],
+                  "type": "choice",
+                  "validations": [
+                    {
+                      "name": "required"
+                    }
+                  ]
+                },
+                "title": "Currency",
+                "type": "column"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "info": {
+                  "defaultValue": "CURRENT",
+                  "internalName": "generalrate",
+                  "options": [
+                    {
+                      "key": "AVERAGE",
+                      "value": "Average"
+                    },
+                    {
+                      "key": "CURRENT",
+                      "value": "Current"
+                    },
+                    {
+                      "key": "HISTORICAL",
+                      "value": "Historical"
+                    }
+                  ],
+                  "type": "choice"
+                },
+                "title": "General Rate Type",
+                "type": "column"
+              },
+              {
+                "info": {
+                  "defaultValue": "AVERAGE",
+                  "internalName": "cashflowrate",
+                  "options": [
+                    {
+                      "key": "AVERAGE",
+                      "value": "Average"
+                    },
+                    {
+                      "key": "CURRENT",
+                      "value": "Current"
+                    },
+                    {
+                      "key": "HISTORICAL",
+                      "value": "Historical"
+                    }
+                  ],
+                  "type": "choice"
+                },
+                "title": "Cash Flow Rate Type",
+                "type": "column"
+              }
+            ]
+          }
+        ],
+        "title": "General info"
+      },
+      {
+        "rows": [
+          {
+            "cells": [
+              {
+                "info": {
+                  "defaultValue": true,
+                  "internalName": "revalue",
+                  "type": "bool"
+                },
+                "title": "Revalue Open Balance for Foreign Currency Transactions",
+                "type": "column"
+              },
+              {
+                "info": {
+                  "defaultValue": false,
+                  "internalName": "issummary",
+                  "type": "bool"
+                },
+                "title": "Summary",
+                "type": "column"
+              },
+              {
+                "info": {
+                  "defaultValue": false,
+                  "internalName": "isinactive",
+                  "type": "bool"
+                },
+                "title": "Inactive",
+                "type": "column"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "info": {
+                  "internalName": "description",
+                  "mode": "multiline",
+                  "type": "text"
+                },
+                "title": "Description",
+                "type": "column"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "info": {
+                  "defaultValue": "[Today]",
+                  "internalName": "trandate",
+                  "type": "date"
+                },
+                "title": "Date",
+                "type": "column"
+              },
+              {
+                "info": {
+                  "internalName": "department",
+                  "options": [
+                    {
+                      "key": "1",
+                      "value": "Admin"
+                    },
+                    {
+                      "key": "11",
+                      "value": "Engineering"
+                    },
+                    {
+                      "key": "4",
+                      "value": "Marketing"
+                    },
+                    {
+                      "key": "5",
+                      "value": "Production"
+                    },
+                    {
+                      "key": "7",
+                      "value": "Production : Assembly"
+                    },
+                    {
+                      "key": "10",
+                      "value": "Production : Fabrication"
+                    },
+                    {
+                      "key": "9",
+                      "value": "Production : Inspection"
+                    },
+                    {
+                      "key": "6",
+                      "value": "Production : Machine Shop"
+                    },
+                    {
+                      "key": "2",
+                      "value": "Sales"
+                    },
+                    {
+                      "key": "3",
+                      "value": "Service"
+                    }
+                  ],
+                  "type": "choice"
+                },
+                "title": "Restrict to Department",
+                "type": "column"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "info": {
+                  "internalName": "sbankname",
+                  "type": "text"
+                },
+                "title": "Bank Name",
+                "type": "column"
+              },
+              {
+                "info": {
+                  "internalName": "sbankroutingnumber",
+                  "type": "text"
+                },
+                "title": "Bank Routing Number",
+                "type": "column"
+              },
+              {
+                "info": {
+                  "internalName": "sbankcompanyid",
+                  "type": "text"
+                },
+                "title": "Bank Account Number",
+                "type": "column"
+              }
+            ]
+          }
+        ],
+        "title": "Description and banking information"
+      },
+      {
+        "rows": [
+          {
+            "cells": [
+              {
+                "info": {
+                  "internalName": "class",
+                  "options": [
+                    {
+                      "key": "10",
+                      "value": "Accessories"
+                    },
+                    {
+                      "key": "13",
+                      "value": "Consumer Goods"
+                    },
+                    {
+                      "key": "2",
+                      "value": "Furniture"
+                    },
+                    {
+                      "key": "5",
+                      "value": "Furniture : Home"
+                    },
+                    {
+                      "key": "3",
+                      "value": "Furniture : Office"
+                    },
+                    {
+                      "key": "1",
+                      "value": "Hardware"
+                    },
+                    {
+                      "key": "6",
+                      "value": "Hardware : Other"
+                    },
+                    {
+                      "key": "4",
+                      "value": "Hardware : Servers"
+                    },
+                    {
+                      "key": "15",
+                      "value": "Internal"
+                    },
+                    {
+                      "key": "19",
+                      "value": "Internal : Manufacturing"
+                    },
+                    {
+                      "key": "18",
+                      "value": "Internal : Materials"
+                    },
+                    {
+                      "key": "17",
+                      "value": "Internal : R&D"
+                    },
+                    {
+                      "key": "12",
+                      "value": "Merchandise"
+                    },
+                    {
+                      "key": "11",
+                      "value": "Miscellaneous"
+                    },
+                    {
+                      "key": "7",
+                      "value": "Racks"
+                    },
+                    {
+                      "key": "9",
+                      "value": "Racks : Non Wood"
+                    },
+                    {
+                      "key": "8",
+                      "value": "Racks : Wood"
+                    },
+                    {
+                      "key": "14",
+                      "value": "Services"
+                    }
+                  ],
+                  "type": "choice"
+                },
+                "title": "Restrict to Class",
+                "type": "column"
+              },
+              {
+                "info": {
+                  "internalName": "location",
+                  "options": [
+                    {
+                      "key": "2",
+                      "value": "01: San Francisco"
+                    },
+                    {
+                      "key": "5",
+                      "value": "01: San Francisco : QA Hold"
+                    },
+                    {
+                      "key": "4",
+                      "value": "01: San Francisco : Receiving Insp."
+                    },
+                    {
+                      "key": "1",
+                      "value": "02: Boston"
+                    },
+                    {
+                      "key": "3",
+                      "value": "02: Boston : Overstock"
+                    }
+                  ],
+                  "type": "choice"
+                },
+                "title": "Restrict to Location",
+                "type": "column"
+              },
+              {
+                "info": {
+                  "defaultValue": false,
+                  "internalName": "includechildren",
+                  "type": "bool"
+                },
+                "title": "Include Children",
+                "type": "column"
+              }
+            ]
+          },
+          {
+            "cells": [
+              {
+                "info": {
+                  "defaultValue": "3",
+                  "internalName": "subsidiary",
+                  "isMulti": true,
+                  "options": [
+                    {
+                      "key": "3",
+                      "value": "Honeycomb Holdings Inc."
+                    },
+                    {
+                      "key": "1",
+                      "value": "Honeycomb Holdings Inc. : Honeycomb Mfg."
+                    },
+                    {
+                      "key": "4",
+                      "value": "Honeycomb Holdings Inc. : test sub"
+                    }
+                  ],
+                  "type": "choice",
+                  "validations": [
+                    {
+                      "name": "required"
+                    }
+                  ]
+                },
+                "title": "Subsidiaries",
+                "type": "column"
+              }
+            ]
+          }
+        ],
+        "title": "Additional info"
+      }
+    ],
+    "title": "Create a new account"
+  },
+  "schemaVersion": 1
+}
