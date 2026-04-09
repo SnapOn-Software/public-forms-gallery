@@ -6,6 +6,26 @@
           {
             "cells": [
               {
+                "info": {
+                  "defaultValue": "F",
+                  "format": "VRadioButtons",
+                  "internalName": "isperson",
+                  "options": [
+                    {
+                      "key": "F",
+                      "value": "Company"
+                    },
+                    {
+                      "key": "T",
+                      "value": "Individual"
+                    }
+                  ],
+                  "type": "choice"
+                },
+                "title": "Customer Type",
+                "type": "column"
+              },
+              {
                 "conditions": [
                   {
                     "field": "isperson",
@@ -55,26 +75,6 @@
                 "type": "column"
               },
               {
-                "info": {
-                  "defaultValue": "F",
-                  "format": "VRadioButtons",
-                  "internalName": "isperson",
-                  "options": [
-                    {
-                      "key": "F",
-                      "value": "Company"
-                    },
-                    {
-                      "key": "T",
-                      "value": "Individual"
-                    }
-                  ],
-                  "type": "choice"
-                },
-                "title": "Type",
-                "type": "column"
-              },
-              {
                 "conditions": [
                   {
                     "field": "isperson",
@@ -82,17 +82,13 @@
                     "value": "T"
                   }
                 ],
-                "else": {
-                  "html": "",
-                  "type": "html"
-                },
                 "info": {
                   "as": "Switch",
                   "defaultValue": true,
                   "internalName": "autoname",
                   "type": "bool"
                 },
-                "title": "Auto",
+                "title": "Auto Generate ID",
                 "type": "column"
               }
             ]
